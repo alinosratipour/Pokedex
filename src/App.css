@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+
+
+.container{
+  
+ padding-bottom: 80px;
+text-align: center;
+}
+.random{
+  margin: 0 auto;
+text-align: left;
+ 
+  width: 30%;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
