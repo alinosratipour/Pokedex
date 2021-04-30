@@ -1,10 +1,6 @@
 import React from "react";
 
 const Logo = ({HandelClick}) =>{
-// const logWhenClicked = () =>{
-//  return  console.log("we are in logo component")
-// }
-//onClick ={logWhenClicked} 
 
   return(
     <header>
