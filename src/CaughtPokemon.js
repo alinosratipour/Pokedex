@@ -4,7 +4,7 @@ const CaughtPokemon = () => {
   const [caught, setCaught] = useState([]);
   let [count, setCount] = useState(0);
 const catchPokemon = () =>{
-  const months = ["Spearow", "Eevee", "Pikachu", "Butterfree"];
+  const months = ["Spearow", "Eevee", "Pikachu","Butterfree"];
   let randomItem = months[Math.floor(Math.random()*months.length)];
   setCaught(caught.concat(randomItem));
   setCount(count + 1);
