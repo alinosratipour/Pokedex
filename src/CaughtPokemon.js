@@ -5,8 +5,8 @@ const CaughtPokemon = () => {
   const [pokemonNameInput, setPokemonNameInput] = useState("");
   const [caught, setCaught] = useState([]);
   const [count, setCount] = useState(0);
-  const catchPokemonInput = (event) =>{
 
+  const catchPokemonInput = (event) =>{
     if(pokemonNameInput === ""){
       event.preventDefault();
     }else{
